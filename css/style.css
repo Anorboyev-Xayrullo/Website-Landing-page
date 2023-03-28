@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: linear-gradient(179.78deg, #090909 9.98%, #090901 81.39%), url(nft-art-1230x690.jpg);
+    background-blend-mode: normal, color-dodge;
+    opacity: 0.55;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+
+
+.navbar_list {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 100px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #FFCE4E;
+}
+
+.but {
+    margin-left: 100px;
+    margin-top: 15px;
+    padding: 7px 14px;
+    border: none;
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid #FFCE4E;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFCE4E;
+}
+
+
+/* ============================== Navbar end */
+
+
+
+/* ================= Header start ============================= */
+
+
+
+header {
+    margin-top: 100px;
+}
+
+.hero {
+    margin-left: 100px;
+    width: 80%;
+}
+
+
+.explore {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 130px;
+    color: #F5FBF2;
+}
+
+
+.explore span {
+    color: #FFCE4E;
+}
+
+
+
+
+.art {
+    margin-top: 50px;
+    width: 180px;
+    height: 60px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+    border: none;
+    background: #FFCE4E;
+}
+
+.butt {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 180px;
+    height: 60px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+    border: none;
+}
+
+.action {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.action h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 78px;
+    color: #F5FBF2;
+}
+
+.action p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #9B9E9A;
+}
+
+
+
+
+
+
+/* ==============   Main start ============================= */
+
+
+
+
+main {
+    margin-top: 100px;
+}
+
+.live {
+    margin-top: 100px;
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    color: #F5FBF2;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:575px) {
+    .action{
+        display: flex;
+        align-items: center;
+    }
+    .hero{
+        margin-top: 50px;
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .butt{
+        margin-left: 50px;
+        text-align: center;
+    }
+    .art{
+        margin-left: 50px;
+    }
+    .explore{
+        font-size: 52px;
+        text-align: center;
+    }
+    .same{
+        margin-left: 50px;
+        color: #F5FBF2;
+    }
+    .same h3{
+        font-size: 30px;
+    }
+    .live{
+        font-size: 54px;
+    }
+}
