@@ -167,13 +167,111 @@ main {
 }
 
 
+/* ============================== Section two start================================== */
+
+
+.profil {
+    display: flex;
+    align-items: center;
+}
+
+.profil div {
+    margin-left: 30px;
+}
+
+.profil div p {
+    margin-left: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #BDAAC1;
+}
+
+.profil h3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.profil span {
+    margin-left: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #76607A;
+}
+
+.fa-heart {
+    padding-left: 130px;
+    font-size: 20px;
+}
+
+.card {
+    background: #3D2942;
+    margin-bottom: 50px;
+}
+
+
+.place {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #9d2525;
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid #000000;
+}
+
+.card button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.view {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #61d626;
+}
+
+
+
+/* ================== Section two end ===================== */
+
+
+
+/* ================= Section three start =================== */
 
 
 
 
+/* ================= Section three end =================== */
 
 
 
+.section_three button {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #030801;
+    margin-bottom: 50px;
+}
 
 
 
@@ -197,35 +295,72 @@ main {
 
 
 @media (max-width:575px) {
-    .action{
+    .action {
         display: flex;
         align-items: center;
     }
-    .hero{
+
+    .hero {
         margin-top: 50px;
         margin-left: 0;
         text-align: center;
         width: 80%;
     }
-    .butt{
+
+    .butt {
         margin-left: 50px;
         text-align: center;
     }
-    .art{
+
+    .art {
         margin-left: 50px;
     }
-    .explore{
+
+    .explore {
         font-size: 52px;
         text-align: center;
     }
-    .same{
+
+    .same {
         margin-left: 50px;
         color: #F5FBF2;
     }
-    .same h3{
+
+    .same h3 {
         font-size: 30px;
     }
-    .live{
+
+    .live {
         font-size: 54px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .profil i {
+        padding-left: 0;
+    }
+
+    .profil img {
+        margin-top: 20px;
+        width: 40%;
+    }
+
+    .vegetarian {
+        width: 80%;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .profil div h3 {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .card button {
+        margin-top: 20px;
     }
 }
